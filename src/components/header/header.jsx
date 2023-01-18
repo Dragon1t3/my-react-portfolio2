@@ -3,8 +3,10 @@ import './header.css'
 import ME from '../../assets/me.png'
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials'
+import { useState } from 'react';
 
-function header() {
+function Header() {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <header>
       <div className='container header_container'>
@@ -24,4 +26,4 @@ function header() {
   )
 }
 
-export default header
+export default Header
