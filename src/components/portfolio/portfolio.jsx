@@ -4,7 +4,7 @@ import './portfolio'
 
 function portfolio() {
   return (
-    <div>portfolio</div>
+    <section>portfolio</section>
   )
 }
 
